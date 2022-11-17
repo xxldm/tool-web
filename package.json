@@ -2,6 +2,7 @@
   "name": "tool-web",
   "version": "0.0.6-beta.3",
   "private": true,
+  "packageManager": "pnpm@7.16.1",
   "author": {
     "name": "xxldm",
     "email": "419722140@qq.com",
