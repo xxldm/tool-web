@@ -10,6 +10,7 @@
     "save": "是否保存已修改内容?"
   },
   "content": "内容",
+  "countdown": "",
   "date": {
     "unit": {
       "day": "天",
@@ -26,6 +27,7 @@
     "PageNotFound": "页面走丢了"
   },
   "get": "获取",
+  "hourMeter": "",
   "live": {
     "monitor": "DD监控室"
   },
@@ -58,6 +60,7 @@
   "shortcuts": {
     "button": {
       "title": {
+        "MonitorLayout": "布局方式",
         "main-edit": "首页布局编辑"
       }
     }

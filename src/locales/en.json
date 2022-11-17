@@ -35,7 +35,8 @@
   "mainLayout": {
     "component": {
       "label": {
-        "Countdown": ""
+        "Countdown": "",
+        "HourMeter": ""
       }
     }
   },
@@ -59,6 +60,7 @@
   "shortcuts": {
     "button": {
       "title": {
+        "MonitorLayout": "Layout",
         "main-edit": "Homepage layout editor"
       }
     }
