@@ -1,0 +1,81 @@
+{
+  "app": "application",
+  "appName": "toolbox",
+  "cancel": "Cancel",
+  "confirm": {
+    "confirm": "confirm",
+    "noSaveGoPage": "Unsaved content will be lost, are you sure you want to go to another page?"
+  },
+  "confitm": {
+    "save": ""
+  },
+  "content": "content",
+  "countdown": "countdown",
+  "date": {
+    "unit": {
+      "day": "sky",
+      "hour": "Hour",
+      "minute": "Minute",
+      "month": "moon",
+      "second": "second",
+      "week": "week",
+      "year": "year"
+    }
+  },
+  "download": "download",
+  "error": {
+    "PageNotFound": "page lost"
+  },
+  "get": "get",
+  "hourMeter": "timer",
+  "main": "main",
+  "mainLayout": {
+    "component": {
+      "label": {
+        "Countdown": ""
+      }
+    }
+  },
+  "menu": {
+    "goMain": "Home",
+    "main": "front page"
+  },
+  "no": "no",
+  "reboot": "reboot",
+  "retry": "Retry",
+  "settings": {
+    "label": {
+      "allowPrerelease": "Whether to update the beta version",
+      "display": "window",
+      "openAtLogin": "Automatically run at startup",
+      "wallpaperMode": "class wallpaper",
+      "windowMode": "window display mode"
+    },
+    "system": "system settings"
+  },
+  "shortcuts": {
+    "button": {
+      "title": {
+        "main-edit": "Homepage layout editor"
+      }
+    }
+  },
+  "system": {
+    "closeApp": "closure",
+    "settings": "set up"
+  },
+  "update": {
+    "checkUpdate": "Get updates...",
+    "currentVersion": "current version",
+    "downloading": "Downloading update",
+    "error": "Failed to get update",
+    "isSkipUpdate": "This version has been skipped",
+    "latestVersion": "is the latest version",
+    "newVersion": "new version detected",
+    "skipUpdate": "skip this version",
+    "title": "Update the app",
+    "update": "renew"
+  },
+  "window": "window",
+  "yes": "Yes"
+}

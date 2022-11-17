@@ -1,0 +1,13 @@
+<template>
+  <el-button
+    circle
+    size="large"
+    @click="toggleDark()"
+  >
+    <span
+      i-carbon-sun
+      dark:i-carbon-moon
+      text-2xl
+    />
+  </el-button>
+</template>

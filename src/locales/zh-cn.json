@@ -1,0 +1,80 @@
+{
+  "app": "应用",
+  "appName": "工具箱",
+  "cancel": "取消",
+  "confirm": {
+    "confirm": "确定",
+    "noSaveGoPage": "未保存的内容会丢失, 确定前往其他页面?"
+  },
+  "confitm": {
+    "save": "是否保存已修改内容?"
+  },
+  "content": "内容",
+  "date": {
+    "unit": {
+      "day": "天",
+      "hour": "小时",
+      "minute": "分",
+      "month": "月",
+      "second": "秒",
+      "week": "周",
+      "year": "年"
+    }
+  },
+  "download": "下载",
+  "error": {
+    "PageNotFound": "页面走丢了"
+  },
+  "get": "获取",
+  "main": "主",
+  "mainLayout": {
+    "component": {
+      "label": {
+        "Countdown": "倒计时",
+        "HourMeter": "计时器"
+      }
+    }
+  },
+  "menu": {
+    "goMain": "回首页",
+    "main": "首页"
+  },
+  "no": "否",
+  "reboot": "重启",
+  "retry": "重试",
+  "settings": {
+    "label": {
+      "allowPrerelease": "是否更新测试版",
+      "display": "窗口",
+      "openAtLogin": "开机时自动运行",
+      "wallpaperMode": "类壁纸",
+      "windowMode": "窗口显示模式"
+    },
+    "system": "系统设置"
+  },
+  "shortcuts": {
+    "button": {
+      "title": {
+        "main-edit": "首页布局编辑"
+      }
+    }
+  },
+  "system": {
+    "closeApp": "关闭",
+    "settings": "设置"
+  },
+  "update": {
+    "checkUpdate": "获取更新...",
+    "currentVersion": "当前版本",
+    "downloading": "正在下载更新",
+    "error": "更新获取失败",
+    "isSkipUpdate": "已跳过这个版本",
+    "latestVersion": "已是最新版本",
+    "newVersion": "检测到新版本",
+    "skipUpdate": "跳过这个版本",
+    "title": "更新应用",
+    "update": "更新"
+  },
+  "window": "窗口",
+  "yes": "是"
+}
