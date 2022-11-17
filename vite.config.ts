@@ -1,7 +1,6 @@
 import VueI18n from "@intlify/vite-plugin-vue-i18n";
 import Vue from "@vitejs/plugin-vue";
 import { resolve } from "path";
-import { transformerDirectives } from "unocss";
 import Unocss from "unocss/vite";
 import AutoImport from "unplugin-auto-import/vite";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
@@ -77,7 +76,7 @@ export default (_: ConfigEnv): UserConfigExport => ({
         "src/store",
       ],
       vueTemplate: true,
-      // 自动导入 Element Plus 相关函数，如：ElMessage, ElMessageBox... (带样式)
+      // 自动导入 Element Plus 相关 **函数** ，如：ElMessage, ElMessageBox... (带样式)
       resolvers: [ElementPlusResolver({ importStyle: "sass" })],
     }),
 
@@ -85,18 +84,13 @@ export default (_: ConfigEnv): UserConfigExport => ({
     Components({
       dirs: ["src/components", "src/layouts/components"],
       dts: true,
-      resolvers: [
-        ElementPlusResolver({ importStyle: "sass" }),
-      ],
+      // 自动导入 Element Plus 相关 **组件**
+      resolvers: [ElementPlusResolver({ importStyle: "sass" })],
     }),
 
     // https://github.com/antfu/unocss
     // see unocss.config.ts for config
-    Unocss({
-      // https://github.com/unocss/unocss/issues/1570
-      // transformerDirectives 会导致 unocss vscode 插件 bug, unocss vscode 插件不会读取vite.config.ts, 所以放这边
-      transformers: [transformerDirectives()],
-    }),
+    Unocss(),
 
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({

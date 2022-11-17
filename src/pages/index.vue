@@ -85,5 +85,6 @@ const boxCount = computed(() => {
 <route lang="yaml">
 name: menu.main
 meta:
+  sort: 99
   layout: main
 </route>

@@ -3,6 +3,7 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
+  transformerDirectives,
 } from "unocss";
 
 export default defineConfig({
@@ -12,6 +13,9 @@ export default defineConfig({
     presetIcons({
       warn: true,
     }),
+  ],
+  transformers: [
+    transformerDirectives(),
   ],
   safelist: [
     ...Array.from({ length: 9 }, (_, i) => `[grid-gap~="${i + 1}"]`),

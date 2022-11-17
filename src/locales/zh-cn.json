@@ -26,6 +26,9 @@
     "PageNotFound": "页面走丢了"
   },
   "get": "获取",
+  "live": {
+    "monitor": "DD监控室"
+  },
   "main": "主",
   "mainLayout": {
     "component": {

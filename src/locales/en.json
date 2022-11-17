@@ -28,6 +28,9 @@
   },
   "get": "get",
   "hourMeter": "timer",
+  "live": {
+    "monitor": ""
+  },
   "main": "main",
   "mainLayout": {
     "component": {
